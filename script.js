@@ -21,7 +21,7 @@ submit.addEventListener("click", function () {
   }
   if (guess - result !== 0) {
     let preCounter = counter;
-    let numberBefore = guess;
+
     console.log("counter before " + counter);
     counter = Math.abs(guess - result);
     console.log("pre counter " + preCounter);

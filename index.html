@@ -10,8 +10,10 @@
   <body>
     <div class="container">
       <label for="number" class="input">Guess a number from 1 to 100</label>
-      <input type="number" id="input" />
-      <button id="button">check</button>
+      <input type="number" id="input" min="1" max="100" />
+      <input type="submit" id="submit" value="check" />
+      <div class="previous">Previous number: <span id="previous"></span></div>
+      <div class="answere">Closer: <span id="answere"></span></div>
     </div>
   </body>
 </html>
